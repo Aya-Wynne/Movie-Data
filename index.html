@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Movie Data</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>Wes Anderson Movie Data Project</header>
+    <div class="container">
+      <img
+        src="Darjeeling_Limited_Poster.jpeg"
+        alt="Three men sat in a row, with a green background"
+      />
+      <img
+        src="The_Royal_Tenenbaums_Poster.webp"
+        alt="Family stood in a row looking stern"
+      />
+      <img
+        src="Fantastic_mr_fox.jpeg"
+        alt="Two foxes embracing with a host of animals around them"
+      />
+      <img
+        src="The_Grand_Budapest_Hotel.png"
+        alt="Portraits of the characters lined up as if they are hotel room keys"
+      />
+    </div>
+
+    <label>Find out about a movie...</label>
+    <select id="selector">
+      <option value="">--Please choose a movie--</option>
+      <option value="The Darjeeling Limited">The Darjeeling Limited</option>
+      <option value="The Royal Tenenbaums">The Royal Tenenbaums</option>
+      <option value="Fantastic Mr. Fox">Fantastic Mr. Fox</option>
+      <option value="The Grand Budapest Hotel">The Grand Budapest Hotel</option>
+    </select>
+
+    <h1 id="Movie Title"></h1>
+    <p id="plot"></p>
+    <p id="cast"></p>
+    <p id="runtime"></p>
+    <p id="rating"></p>
+    <p id="year"></p>
+  </body>
+  <script src="script.js"></script>
+</html>
